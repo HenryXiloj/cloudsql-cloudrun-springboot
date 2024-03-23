@@ -8,7 +8,7 @@ spring:
     public-ip:
       url: jdbc:postgresql:///
       database: my-database1
-      cloudSqlInstance: terraform-workspace-413615:us-central1:main-instance
+      cloudSqlInstance: <MY_PROJECT_ID>:us-central1:main-instance
       username: henry
       password: mypassword
       ipTypes: PUBLIC
@@ -17,7 +17,7 @@ spring:
     private-ip:
       url: jdbc:postgresql:///
       database: my-database2
-      cloudSqlInstance: terraform-workspace-413615:us-central1:private-instance
+      cloudSqlInstance: <MY_PROJECT_ID>:us-central1:private-instance
       username: henry
       password: mypassword
       ipTypes: PRIVATE
