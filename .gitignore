@@ -1,0 +1,43 @@
+#Ignore  terraform state files
+cloud-sql/.terraform
+cloud-sql/.terraform.lock.hcl
+cloud-sql/.terraform.tfstate
+cloud-sql/.terraform.tfstate.lock.info
+cloud-sql/terraform.tfstate
+cloud-sql/terraform.tfstate.backup
+
+
+demo-cloudsql/HELP.md
+demo-cloudsql/target/
+demo-cloudsql/!.mvn/wrapper/maven-wrapper.jar
+demo-cloudsql/!**/src/main/**/target/
+demo-cloudsql/!**/src/test/**/target/
+
+
+### STS ###
+demo-cloudsql/.apt_generated
+demo-cloudsql/.classpath
+demo-cloudsql/.factorypath
+demo-cloudsql/.project
+demo-cloudsql/.settings
+demo-cloudsql/.springBeans
+demo-cloudsql/.sts4-cache
+
+### IntelliJ IDEA ###
+demo-cloudsql/.idea
+demo-cloudsql/*.iws
+demo-cloudsql/*.iml
+demo-cloudsql/*.ipr
+
+### NetBeans ###
+demo-cloudsql/nbproject/private/
+demo-cloudsql/nbbuild/
+demo-cloudsql/dist/
+demo-cloudsql/nbdist/
+demo-cloudsql/.nb-gradle/
+demo-cloudsql/build/
+demo-cloudsql/!**/src/main/**/build/
+demo-cloudsql/!**/src/test/**/build/
+
+### VS Code ###
+cloudsql-cloudrun-springboot/.vscode/
